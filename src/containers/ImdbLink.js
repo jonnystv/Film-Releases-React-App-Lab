@@ -5,7 +5,7 @@ const ImdbLink = () => {
     return (
 
         <>
-            <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a>
+            <h3><a href="https://www.imdb.com/calendar/?region=gb" target="blank">View more upcoming releases</a></h3>
 
         </>
     );

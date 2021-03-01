@@ -35,7 +35,7 @@ const FilmReleasesBox = () => {
     return (
 
         <>
-            <FilmReleasesList films={films} ></FilmReleasesList>
+            <FilmReleasesList films={films} title="Upcoming UK Film Releases"></FilmReleasesList>
             <ImdbLink />
         </>
 

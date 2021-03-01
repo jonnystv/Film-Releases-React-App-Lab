@@ -1,7 +1,7 @@
 import React from 'react';
 import Film from '../components/Film';
 
-const FilmReleasesList = ({ films }) => {
+const FilmReleasesList = ({ title, films }) => {
 
     const filmNodes = films.map(({ name, url, id }) => {
         return (
@@ -11,6 +11,9 @@ const FilmReleasesList = ({ films }) => {
 
     return (
         <>
+            
+            <h2>{title}</h2>
+            
             {filmNodes}
         </>
     )
