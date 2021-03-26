@@ -1,3 +1,7 @@
+# Film Releases React App Lab
+
+Build a React app that displays a list of upcoming film titles.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
